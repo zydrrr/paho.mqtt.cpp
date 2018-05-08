@@ -66,6 +66,7 @@ $ cd paho.mqtt.cpp
 $ mkdir build
 $ cd build
 $ cmake -DPAHO_BUILD_DOCUMENTATION=TRUE -DPAHO_BUILD_SAMPLES=TRUE -DPAHO_MQTT_C_PATH=../../paho.mqtt.c ..
+tips::::: src/CMakeList mqtt-c-lib   PAHO_WITH_SSL=FALSE?  
 $ make
 ```
 
